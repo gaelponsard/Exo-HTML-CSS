@@ -42,13 +42,13 @@ nav a:hover{
     
 }
 
-.who_we_are{
+.link1{
     margin-bottom: auto;
     margin-top:auto;
     flex: 1;
 }
 
-.get_involved{
+.link2{
     margin-bottom: auto;
     margin-top:auto;
     flex: 1;
@@ -58,26 +58,24 @@ nav a:hover{
 
 #home{
     background-image: url("../images/hero-image.jpg");
-    height: 100vh;
+    height: 65vh;
     width: 100%;
     text-align: center;
     color:white;
     padding: 30px;
-
-}
-
-.jumbotron{
     margin-top: auto;
     margin-bottom: auto;
-    
 }
 
 
-h1{
-    font-weight: 500;
-    line-height: 1.1;
+#home h1{
     font-family: 'Arvo', courier, serif;
     font-size: 60px;
+}
+
+#home p{
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
 }
 
 button{
@@ -85,8 +83,8 @@ button{
     color: white;
     border: none;
     border-radius: 4px;
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 40px;
 }
 
 img.code{
@@ -94,4 +92,31 @@ img.code{
     margin-left:auto;
     margin-right: auto;
     margin-top: 20px;
+}
+
+#who{
+    height: 40vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+#who h1{
+    font-family: 'Arvo', courier, serif;
+    font-size: 30px;
+    color: #d9534f
+}
+
+#who hr{
+    align-content: center;
+    width: 8%;
+    height: 1.5px;
+    background-color: #d9534f;
+    border: none;
+}
+
+#who p{
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 20px;
 }
