@@ -63,6 +63,7 @@ nav a:hover{
     text-align: center;
     color:white;
     padding: 30px;
+
 }
 
 .jumbotron{
@@ -71,13 +72,12 @@ nav a:hover{
     
 }
 
-.jumbotron h1{
-    font-family: 'Arvo', courier, serif;
-}
 
 h1{
     font-weight: 500;
     line-height: 1.1;
+    font-family: 'Arvo', courier, serif;
+    font-size: 60px;
 }
 
 button{
@@ -85,6 +85,7 @@ button{
     color: white;
     border: none;
     border-radius: 4px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 
 }
 
