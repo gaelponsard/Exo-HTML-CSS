@@ -58,7 +58,7 @@ nav a:hover {
 
 #home {
     background-image: url("../images/hero-image.jpg");
-    height: 65vh;
+    min-height: 580px;
     max-width: 100%;
     text-align: center;
     color: white;
@@ -88,6 +88,10 @@ nav a:hover {
     padding: 10px;
 }
 
+#home .fa{
+    font-size: 30px;
+}
+
 img.code {
     display: block;
     margin-left: auto;
@@ -95,13 +99,28 @@ img.code {
     margin-top: 20px;
 }
 
+@media screen and (max-width:767px){
+    #home h1{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #home p{
+        font-size: 10px;
+    }
+}
+
+
+/*who */
 #who {
-    height: 40vh;
+    min-height: 380px;
     width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 30px;
 }
+
 
 #who h1 {
     font-family: 'Arvo', courier, serif;
@@ -122,8 +141,10 @@ img.code {
     font-size: 20px;
 }
 
+
+/*get-involved*/
 #get-involved {
-    height: 40vh;
+    min-height: 490px;
     width: 100%;
     margin: auto;
     padding-top: 30px;
@@ -155,8 +176,10 @@ img.code {
 }
 
 .fa{
+   
+    line-height: 1.5em;
+    font-size: 4em;
     color: white;
-    vertical-align: center;
 }
 .box {
     display: inline-block;
@@ -185,4 +208,37 @@ img.code {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 12px;
     padding: 5px;
+}
+
+#get-involved .fa-angle-double-right{
+        font-size: 30px;
+        color:#d9534f;
+        font-size: 12px;
+    }
+
+
+/* footer */
+
+footer{
+    background-color: #d9534f;
+    min-height: 200px;
+    width: 100%;
+}
+
+img.bottom-brand{
+    margin-top: 6%;
+    margin-left: 17%;
+}
+
+
+/* back to top */
+
+#back-to-top{
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+}
+
+.fa-chevron-circle-up{
+    color:black;
 }
